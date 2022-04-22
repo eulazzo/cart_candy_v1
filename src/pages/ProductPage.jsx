@@ -6,6 +6,7 @@ import { Footer } from "../components/Footer";
 import Header from "../components/Header";
 import { addProduct } from "../redux/cartSlice";
 import Spinner from "../components/Spinner";
+import { Button } from "@material-ui/core";
 
 const ProductPage = () => {
   const { id } = useParams();
