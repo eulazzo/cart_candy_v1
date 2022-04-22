@@ -31,7 +31,7 @@ const Home = () => {
     <div>
       <div className="max-w-7xl mx-auto ">
         <Header />
-        <h4 className=" font-extrabold mt-10 text-2xl">Produtos</h4>
+        <h4 className=" font-extrabold mt-10 text-2xl mb-5">Produtos</h4>
         <div className="grid grid-cols-4 gap-10">
           {products.map(
             ({ uniqueId, id, imageUrl, name, sellingPrice, price }) => (
