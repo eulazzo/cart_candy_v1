@@ -7,7 +7,7 @@ const Product = ({ imageUrl, name, price, sellingPrice }) => {
         <span className="mt-1 text-gray-400 text-xs ">R${price}</span>
         <span>R${sellingPrice}</span>
       </div>
-      <button className="text-center rounded-b-xl bg-btnColor hover:bg-blue-900 text-white w-[100%] py-5">
+      <button className="text-center rounded-b-xl bg-btnColor hover:bg-blue-900 text-white w-[100%] py-6 border-0">
         Comprar Agora
       </button>
     </div>
