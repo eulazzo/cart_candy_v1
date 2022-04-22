@@ -7,7 +7,7 @@ import Spinner from "../components/Spinner";
 import { Footer } from "../components/Footer";
 
 const Home = () => {
-  // TODO: Refatorar codigo, melhorar css,html e implementar forma de pagamento(stripe)
+  // TODO: forma de pagamento(stripe)
 
   const [loading, setLoading] = useState(false);
   const [products, setProducts] = useState([]);

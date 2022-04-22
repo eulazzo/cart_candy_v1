@@ -3,10 +3,15 @@ import ProductList from "../components/ProductList";
 
 import { useState } from "react";
 import { useSelector } from "react-redux";
+import Spinner from "../components/Spinner";
+
 
 const Card = () => {
   const cart = useSelector((state) => state.cart);
   const [freeShipping] = useState(cart.total);
+
+  if (!cart.products.length)
+    return <Spinner message="O carrinho está vazio!" />;
 
   return (
     <div className="bg-bgColor min-h-screen  flex items-center justify-center">
