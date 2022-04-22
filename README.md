@@ -24,3 +24,8 @@
 </p>
 
 ![CODEBY - Cart Test](github/projectproject.gif)
+
+
+## Deployed On Vercel
+#### Click on the button below to check it out
+[![Deploy with Vercel](https://vercel.com/button)](https://test-cart.vercel.app/)
