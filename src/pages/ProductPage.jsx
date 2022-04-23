@@ -40,17 +40,23 @@ const ProductPage = () => {
   if (loading) return <Spinner message="Loadin product info..." />;
 
   return (
+    // TODO: melhorar página
     <div className="container mx-auto ">
       <Header />
-      <div className="mx-auto flex mt-14 gap-5 justify-around w-1/2 px-5 ">
-        <div>
-          <img
-            className="w-[100%] h-[100%] border-2 p-1 cursor-pointer shadow-lg rounded-lg"
-            src={product?.imageUrl}
-            alt="product"
-          />
-        </div>
-        <div className="flex flex-col">
+      <div
+        className="flex-col mt-14 gap-5  mx-auto sm:h-[400px] justify-center
+      
+      md:flex md:flex-row    
+      "
+      >
+        <img
+          className="border-2 p-1 cursor-pointer shadow-lg rounded-lg  
+          "
+          src={product?.imageUrl}
+          alt="product"
+        />
+
+        <div className="flex flex-col w-[310px] ml-10 md:ml-0 md:mt-0 mt-5">
           <div className="flex-1">
             <p className="text-2xl font-poppins">{product?.name}</p>
             <p className="text-gray-400 text-xs mt-1 font-poppins">
