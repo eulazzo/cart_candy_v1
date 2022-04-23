@@ -6,11 +6,9 @@
 </h1>
  
 <p align="center" >
-  <a href="#about"> About </a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;
-  <a href="#application-features">Gifs</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#sobre-o-projeto"> About </a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;
   <a href="#getting-started">Getting started </a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#techs">Techs</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#license">License</a>
 </p>
 
 
@@ -60,7 +58,7 @@
 
 # CODEBY - Cart Test :shopping_cart: :shopping_cart: :shopping_cart:
 
-## Get Started
+## Getting started 
  * Clone this repo with  <code>git@github.com:eulazzo/testCart.git</code> ;
  * Move to `testCart-main` folder and run `npm install` to add dependencies;
  * run `npm run start` to start the server.
