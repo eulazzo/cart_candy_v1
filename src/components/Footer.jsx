@@ -57,7 +57,7 @@ const Footer = () => {
             "
               placeholder="Your email address"
             />
-            <button class="h-auto p-3 text-xs text-white bg-btnColor rounded-md font-poppins">
+            <button className="h-auto p-3 text-xs text-white bg-btnColor rounded-md font-poppins">
               Subscribe
             </button>
           </div>
@@ -114,8 +114,8 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div class="w-full px-4 lg:w-1/3 md:w-1/2">
-            <h2 class="mb-2 font-bold tracking-widest text-gray-900">
+          <div className="w-full px-4 lg:w-1/3 md:w-1/2">
+            <h2 className="mb-2 font-bold tracking-widest text-gray-900">
               Our Specialties
             </h2>
             <ul className="mb-8 space-y-2 text-sm list-none">
@@ -158,8 +158,8 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div class="flex justify-center -mt-12">
-        <p class="text-base text-gray-400">developed by @eulazzo - 2022</p>
+      <div className="flex justify-center -mt-12">
+        <p className="text-base text-gray-400">developed by @eulazzo - 2022</p>
       </div>
     </footer>
   );
