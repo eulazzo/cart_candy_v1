@@ -30,10 +30,10 @@
 #### Click on the button below to check it out
 [![Deploy with Vercel](https://vercel.com/button)](https://test-cart.vercel.app/)
 
-# About The project
+# Sobre o projeto
 * ### Objetivos
   * Desenvolver um “Carrinho de compras” usando uma API
-  * Desenvolver um “Carrinho de compras” usando uma API.
+  * Listar os produtos, exibir o total da compra e exibir uma mensagem informando se o pedido possui frete grátis.
 
 * ### Requisitos mínimos
   * Listar os produtos provenientes da API.
@@ -56,7 +56,7 @@
 
 # CODEBY - Cart Test :shopping_cart: :shopping_cart: :shopping_cart:
 
-## DOCUMENTATION
+## Get Started
  * Clone this repo with  <code>git@github.com:eulazzo/testCart.git</code> ;
  * Move to `testCart-main` folder and run `npm install` to add dependencies;
  * run `npm run start` to start the server.
