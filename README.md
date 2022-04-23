@@ -21,7 +21,7 @@
   <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=1877f2&labelColor=008000" alt="License">
 </p>
 
-![CODEBY - Cart Test](github/projectproject.gif)
+<!-- ![CODEBY - Cart Test](github/projectproject.gif) -->
 
 
 ## Deployed On Vercel
@@ -50,9 +50,16 @@
   * Home listando os produtos (Fetch da api `acima.json`)
   * Ao clicar em comprar usuário é direcionado página do produto
   * Pode escolher a quantidade de produtos em sequida adicinar ao carrinho
-  * Clicando ao carrinho é direcionado ao proprio, com todos os produtos listados e o preço (Quantidade X Preço) 
+  * Clicando ao carrinho é direcionado ao proprio, com todos os produtos listados e o preço (Quantidade X Preço), ao passo que for adicionado e quando esse valor atingir o valor $10,00 o texto frete grátis é exibido.
   * Para essa funcionalidade, Redux toolkit foi usado.
   * Outra versão do projeto: <a  target="_blanck" href="https://github.com/eulazzo/testCart-v2">Link</a>
+
+# Responsividade
+- [X] Navbar component
+- [X] Hero component
+- [X] Listagem dos produtos
+- [ ] Footer - [Melhorar]
+- [ ] Página do produto
 
 <p>O arquivo json o qual foi feito o fetch está alocado no projeto. </p>
 
