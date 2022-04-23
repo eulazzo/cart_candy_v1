@@ -2,8 +2,12 @@
  
 
 <h1 align="center">
-   <img alt="Cart Candy - logo" src="github/logo.svg" width="200px" />
+   <img alt="Cart Candy - logo" src="github/cartCandy.svg" width="250px" />
 </h1>
+ 
+ <div align="center">
+  <h1>Cart Candy - O melhor lugar para "adoçar" sua vida :) </h1>
+</div>
  
 <p align="center" >
   <a href="#sobre-o-projeto"> About </a> &nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;
@@ -32,7 +36,8 @@
 
  
 
-# Sobre o projeto
+# Sobre o projeto 
+## Teste do carrinho da empresa CODEBY
 * ### Objetivos
   * Desenvolver um “Carrinho de compras” usando uma API
   * Listar os produtos, exibir o total da compra e exibir uma mensagem informando se o pedido possui frete grátis.
