@@ -21,7 +21,7 @@
   <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=1877f2&labelColor=008000" alt="License">
 </p>
 
-![CODEBY - Cart Test](github/projectproject.gif)
+<!-- ![CODEBY - Cart Test](github/projectproject.gif) -->
 
 
 ## Deployed On Vercel
