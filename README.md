@@ -75,10 +75,6 @@
 ## Intro
 ![CODEBY - Cart Test](/github/intro.gif)
 
-## Frete grátis (Caso valor adicionado for superior a R$10)
-![CODEBY - Cart Test](/github/freteGratis.gif)
-
-
 ## Adicionando ao carrinho - Frete grátis (Caso valor total adicionado seja superior a R$10)
 ![CODEBY - Cart Test](/github/freteGratis.gif)
 
