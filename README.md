@@ -52,7 +52,7 @@
   * Pode escolher a quantidade de produtos em sequida adicinar ao carrinho
   * Clicando ao carrinho é direcionado ao proprio, com todos os produtos listados e o preço (Quantidade X Preço) 
   * Para essa funcionalidade, Redux toolkit foi usado.
-  * Também fiz uma versão mais simples: <a  target="_blanck" href="https://github.com/eulazzo/testCart-v2">Link</a>
+  * Outra versão do projeto: <a  target="_blanck" href="https://github.com/eulazzo/testCart-v2">Link</a>
 
 # CODEBY - Cart Test :shopping_cart: :shopping_cart: :shopping_cart:
 
