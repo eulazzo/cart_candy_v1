@@ -30,6 +30,8 @@
 #### Click on the button below to check it out
 [![Deploy with Vercel](https://vercel.com/button)](https://test-cart.vercel.app/)
 
+ 
+
 # Sobre o projeto
 * ### Objetivos
   * Desenvolver um “Carrinho de compras” usando uma API
@@ -53,6 +55,8 @@
   * Clicando ao carrinho é direcionado ao proprio, com todos os produtos listados e o preço (Quantidade X Preço) 
   * Para essa funcionalidade, Redux toolkit foi usado.
   * Outra versão do projeto: <a  target="_blanck" href="https://github.com/eulazzo/testCart-v2">Link</a>
+
+<p>O arquivo json o qual foi feito o fetch está alocado no projeto. </p>
 
 # CODEBY - Cart Test :shopping_cart: :shopping_cart: :shopping_cart:
 
