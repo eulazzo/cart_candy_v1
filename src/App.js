@@ -1,8 +1,9 @@
 import Card from "./pages/Card";
 
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
+
 import ProductPage from "./pages/ProductPage";
+import Home from "./pages/Home";
 
 function App() {
   return (

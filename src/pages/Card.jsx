@@ -1,10 +1,8 @@
 import Button from "../components/Button";
-import ProductList from "../components/ProductList";
+import { ProductList, Spinner } from "../components/index";
 
 import { useState } from "react";
 import { useSelector } from "react-redux";
-import Spinner from "../components/Spinner";
-
 
 const Card = () => {
   const cart = useSelector((state) => state.cart);

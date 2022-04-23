@@ -10,7 +10,7 @@ const Product = ({ imageUrl, name, price, sellingPrice, quantity }) => {
         <p className="font-semibold flex-1 text-xs">{name}</p>
         {/* <span className="text-xs text-gray-400">Quantidade: {quantity}</span> */}
         <span className="text-gray-400 text-xs mt-1">R${sellingPrice}</span>
-        <span className="text-sm">R${price*quantity}</span>
+        <span className="text-sm">R${price * quantity}</span>
       </div>
     </div>
   );

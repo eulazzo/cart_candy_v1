@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import Header from "../components/Header";
+import { Header } from "../components/index";
+
 const Spinner = ({ message }) => {
   return (
-    <div className="max-w-7xl mx-auto">
+    <div className="container mx-auto mt-5">
       <Header />
       <div className="flex justify-center items-center w-[300px] mx-auto h-[80vh]">
         <div>

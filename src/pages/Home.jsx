@@ -1,14 +1,9 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import Product from "../components/Product";
-import Header from "../components/Header";
-import Spinner from "../components/Spinner";
-import { Footer } from "../components/Footer";
+import { Hero, Product, Header, Spinner, Footer } from "../components/index";
 
 const Home = () => {
-  // TODO: forma de pagamento(stripe)
-
   const [loading, setLoading] = useState(false);
   const [products, setProducts] = useState([]);
 
@@ -28,11 +23,14 @@ const Home = () => {
   if (loading) return <Spinner message={"Loading products..."} />;
 
   return (
-    <div>
-      <div className="max-w-7xl mx-auto ">
-        <Header />
-        <h4 className=" font-extrabold mt-10 text-2xl mb-5">Produtos</h4>
-        <div className="grid grid-cols-4 gap-10">
+    <div className="container mx-auto  ">
+      <Header />
+      <Hero />
+      <div className="my-10">
+        <div className="flex flex-row justify-between my-5">
+          <h2 className="text-3xl">Produtos</h2>
+        </div>
+        <div className="grid grid-flow-row grid-cols-1 md:grid-cols-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10">
           {products.map(
             ({ uniqueId, id, imageUrl, name, sellingPrice, price }) => (
               <Link to={`/${uniqueId}`}>
@@ -47,8 +45,8 @@ const Home = () => {
             )
           )}
         </div>
-        <Footer />
       </div>
+      <Footer />
     </div>
   );
 };
