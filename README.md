@@ -2,7 +2,7 @@
  
 
 <h1 align="center">
-   <img alt="CODEBY - Teste carrinho" src="github/logo.svg" width="200px" />
+   <img alt="Cart Candy - logo" src="github/logo.svg" width="200px" />
 </h1>
  
 <p align="center" >
