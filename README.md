@@ -54,6 +54,13 @@
   * Para essa funcionalidade, Redux toolkit foi usado.
   * Outra versão do projeto: <a  target="_blanck" href="https://github.com/eulazzo/testCart-v2">Link</a>
 
+# Responsividade
+- [X] Navbar component
+- [X] Hero component
+- [X] Listagem dos produtos
+- [ ] Footer - [Melhorar]
+- [ ] Página do produto
+
 <p>O arquivo json o qual foi feito o fetch está alocado no projeto. </p>
 
 # CODEBY - Cart Test :shopping_cart: :shopping_cart: :shopping_cart:
