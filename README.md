@@ -21,8 +21,10 @@
   <img src="https://img.shields.io/static/v1?label=license&message=MIT&color=1877f2&labelColor=008000" alt="License">
 </p>
 
-<!-- ![CODEBY - Cart Test](github/projectproject.gif) -->
 
+<h1 align="center">
+   <img alt="CODEBY - Teste carrinho" src="github/MyCart.png" />
+</h1>
 
 ## Deployed On Vercel
 #### Click on the button below to check it out
@@ -64,6 +66,20 @@
 <p>O arquivo json o qual foi feito o fetch está alocado no projeto. </p>
 
 # CODEBY - Cart Test :shopping_cart: :shopping_cart: :shopping_cart:
+
+## Intro
+![CODEBY - Cart Test](/github/intro.gif)
+
+## Frete grátis (Caso valor adicionado for superior a R$10)
+![CODEBY - Cart Test](/github/freteGratis.gif)
+
+
+## Adicionando ao carrinho - Frete grátis (Caso valor total adicionado seja superior a R$10)
+![CODEBY - Cart Test](/github/freteGratis.gif)
+
+## Responsivo
+![CODEBY - Cart Test](/github/responsive.gif)
+ 
 
 ## Getting started 
  * Clone this repo with  <code>git@github.com:eulazzo/testCart.git</code> ;
