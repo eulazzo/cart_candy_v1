@@ -29,3 +29,63 @@
 ## Deployed On Vercel
 #### Click on the button below to check it out
 [![Deploy with Vercel](https://vercel.com/button)](https://test-cart.vercel.app/)
+
+# About The project
+* ### Objetivos
+  * Desenvolver um “Carrinho de compras” usando uma API
+  * Desenvolver um “Carrinho de compras” usando uma API.
+
+* ### Requisitos mínimos
+  * Listar os produtos provenientes da API.
+  * Os produtos devem ter imagem, nome e preço.
+  * Exibir ao fim da lista o valor total de todos os produtos.
+  * Exibir ao fim da lista o valor total de todos os produtos.
+  * O texto de frete grátis deverá aparecer apenas se o valor for acima de R$ 10,00.
+  * Seguir o layout
+  * Usar Flex-Box CSS
+  * Você poderá usar Vanilla JS, React, Vue ou outro framework. Sinta-se a vontade para usar a ferramenta que preferir.
+  
+# Fui um pouco além
+* ### Features
+  * Home listando os produtos (Fetch da api `acima.json`)
+  * Ao clicar em comprar usuário é direcionado página do produto
+  * Pode escolher a quantidade de produtos em sequida adicinar ao carrinho
+  * Clicando ao carrinho é direcionado ao proprio, com todos os produtos listados e o preço (Quantidade X Preço) 
+  * Para essa funcionalidade, Redux toolkit foi usado.
+  * Também fiz uma versão mais simples: <a  target="_blanck" href="https://github.com/eulazzo/testCart-v2">Link</a>
+
+# CODEBY - Cart Test :shopping_cart: :shopping_cart: :shopping_cart:
+
+## DOCUMENTATION
+ * Clone this repo with  <code>git@github.com:eulazzo/testCart.git</code> ;
+ * Move to `testCart-main` folder and run `npm install` to add dependencies;
+ * run `npm run start` to start the server.
+
+ 
+ ## Techs
+
+<table>
+   
+  <thead>
+    <th>Front-end</th>
+  </thead>
+   
+  <tbody>
+    <tr>
+      <td>ReactJS</td>
+    </tr>
+     <tr>
+      <td>Redux Tool Kit</td>
+    </tr>
+    <tr>
+      <td>TailwindCSS</td>
+    </tr>
+    <tr>
+      <td>Fetch</td>
+    </tr>
+    <tr>
+      <td>React Hooks</td>
+    </tr>
+  </tbody>
+  
+</table>
