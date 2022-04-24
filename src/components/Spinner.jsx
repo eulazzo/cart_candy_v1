@@ -3,7 +3,7 @@ import { Header } from "../components/index";
 
 const Spinner = ({ message }) => {
   return (
-    <div className="container mx-auto mt-5">
+    <div className="container mx-auto">
       <Header />
       <div className="flex justify-center items-center w-[300px] mx-auto h-[80vh]">
         <div>

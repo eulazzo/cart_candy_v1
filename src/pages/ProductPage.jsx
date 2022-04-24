@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
 
 import { addProduct } from "../redux/cartSlice";
-import { Footer, Header, Spinner } from "../components/index";
+import { Footer, Header, Spinner, ColorOption } from "../components/index";
 
 const ProductPage = () => {
   const { id } = useParams();
@@ -45,8 +45,7 @@ const ProductPage = () => {
       <Header />
       <div
         className="flex-col mt-14 gap-5  mx-auto sm:h-[400px] justify-center
-      
-      md:flex md:flex-row    
+        md:flex md:flex-row    
       "
       >
         <img
@@ -68,12 +67,12 @@ const ProductPage = () => {
               elit. Animi adipisicing
             </p>
             <div className="flex flex-row my-3 items-center cursor-pointer">
-              <p className=" mr-2">Color: </p>{" "}
-              <div className="bg-black rounded-full h-5 w-5 shadow-md mr-2"></div>
-              <div className="bg-blue-800 rounded-full h-5 w-5 shadow-md mr-2"></div>
-              <div className="bg-btnColor rounded-full h-5 w-5 shadow-md mr-2"></div>
-              <div className="bg-red-800 rounded-full h-5 w-5 shadow-md mr-2"></div>
-              <div className="bg-green-700 rounded-full h-5 w-5 shadow-md mr-2"></div>
+              <p className=" mr-2">Color: </p>
+              <ColorOption bgcolor="bg-blue-800" />
+              <ColorOption bgcolor="bg-btnColor" />
+              <ColorOption bgcolor="bg-red-800" />
+              <ColorOption bgcolor="bg-green-700" />
+              <ColorOption bgcolor="bg-yellow-500" />
             </div>
           </div>
 

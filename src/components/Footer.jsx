@@ -1,16 +1,10 @@
-import {
-  Facebook,
-  Instagram,
-  Pinterest,
-  Twitter,
-  Room,
-  Phone,
-  MailOutline,
-} from "@material-ui/icons";
+import { Facebook, Instagram, Pinterest, Twitter } from "@material-ui/icons";
+
+import { ContacFooterInfo, ListFooterItem } from "./";
 
 const Footer = () => {
   return (
-    <footer className="">
+    <footer>
       <div
         className="
         container
@@ -64,31 +58,21 @@ const Footer = () => {
           <div className="flex justify-center mt-4 lg:mt-2">
             <div className="flex items-center">
               <div
-                className="w-10 h-10 text-white rounded-full flex items-center justify-center mr-[20px] cursor-pointer
-            bg-facebookColor
-            "
+                className="socialmedia
+               bg-facebookColor"
               >
                 <Facebook />
               </div>
               <div
-                className="w-10 h-10 text-white rounded-full flex items-center justify-center mr-[20px] cursor-pointer
-            bg-instagramColor
-            "
+                className="socialmedia
+               bg-instagramColor"
               >
                 <Instagram />
               </div>
-              <div
-                className="w-10 h-10 text-white rounded-full flex items-center justify-center mr-[20px] cursor-pointer
-            bg-twitterColor
-            "
-              >
+              <div className="socialmedia bg-twitterColor">
                 <Twitter />
               </div>
-              <div
-                className="w-10 h-10 text-white rounded-full flex items-center justify-center mr-[20px] cursor-pointer
-            bg-pinterestColor
-            "
-              >
+              <div className=" socialmedia bg-pinterestColor">
                 <Pinterest />
               </div>
             </div>
@@ -99,62 +83,26 @@ const Footer = () => {
             <h2 className="mb-2 font-bold tracking-widest text-gray-900">
               Useful Links
             </h2>
-            <ul className="mb-8 space-y-2 text-sm list-none">
-              <li>
-                <p className="text-gray-600 hover:text-gray-800">Home</p>
-              </li>
-              <li>
-                <p className="text-gray-600 hover:text-gray-800">About Us</p>
-              </li>
-              <li>
-                <p className="text-gray-600 hover:text-gray-800">Doces</p>
-              </li>
-              <li>
-                <p className="text-gray-600 hover:text-gray-800">Contact Us</p>
-              </li>
-            </ul>
+            <ListFooterItem name={"Home"} />
+            <ListFooterItem name={"About Us"} />
+            <ListFooterItem name={"Doces"} />
+            <ListFooterItem name={"Contact Us"} />
           </div>
+
           <div className="w-full px-4 lg:w-1/3 md:w-1/2">
             <h2 className="mb-2 font-bold tracking-widest text-gray-900">
               Our Specialties
             </h2>
-            <ul className="mb-8 space-y-2 text-sm list-none">
-              <li>
-                <p className="text-gray-600 hover:text-gray-800">Bolos</p>
-              </li>
-              <li>
-                <p className="text-gray-600 hover:text-gray-800">Bombons</p>
-              </li>
-              <li>
-                <p className="text-gray-600 hover:text-gray-800">Churros</p>
-              </li>
-              <li>
-                <p className="text-gray-600 hover:text-gray-800">Brigadeiro</p>
-              </li>
-            </ul>
+            <ListFooterItem name={"Bolos"} />
+            <ListFooterItem name={"Bombons"} />
+            <ListFooterItem name={"Churros"} />
+            <ListFooterItem name={"Brigadeiro"} />
           </div>
           <div className="w-full px-4 lg:w-1/3 md:w-1/2">
             <h2 className="mb-2 font-bold tracking-widest text-gray-900">
               Contact
             </h2>
-            <ul className="mb-8 space-y-2 text-sm list-none ">
-              <li>
-                <div className=" text-gray-600 hover:text-gray-800 flex items-center justify-center">
-                  <Room /> 276, Brasil - MG
-                </div>
-              </li>
-              <li>
-                <div className="text-gray-600 hover:text-gray-800 flex items-center justify-center ">
-                  <Phone style={{ marginRight: "10px " }} />1 434 4343 8
-                </div>
-              </li>
-              <li>
-                <div className="  text-gray-600 hover:text-gray-800 flex items-center justify-center">
-                  <MailOutline style={{ marginRight: "5px " }} />
-                  sac@cart.com
-                </div>
-              </li>
-            </ul>
+            <ContacFooterInfo />
           </div>
         </div>
       </div>

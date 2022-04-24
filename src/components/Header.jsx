@@ -15,7 +15,7 @@ const Header = () => {
         </div>
       </Link>
       <div>
-        <span className="text-gray-600 hover:text-btnColor px-3 sm:px-4 cursor-pointer">
+        <span className="text-gray-600 hover:text-btnColor px-3 sm:px-4 cursor-pointer hoverAnimation">
           Home
         </span>
         <span

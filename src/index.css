@@ -6,3 +6,15 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+ 
+@layer components {
+  .socialmedia{
+    @apply w-10 h-10 text-white rounded-full flex items-center justify-center mr-[20px] cursor-pointer
+  }
+  .title{
+    @apply uppercase text-gray-600 tracking-wide text-center md:self-start md:text-left font-poppins
+  }
+} 
+
+ 

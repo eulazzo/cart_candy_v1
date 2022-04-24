@@ -1,3 +1,4 @@
+import { ColorOption } from ".";
 
 const Product = ({ imageUrl, name, price, sellingPrice }) => {
   return (
@@ -15,16 +16,16 @@ const Product = ({ imageUrl, name, price, sellingPrice }) => {
           <span>{name.slice(0, 20)}...</span>
         </h3>
         <div className="flex flex-row my-3 items-center">
-          <div className="bg-black rounded-full h-5 w-5 shadow-md mr-2"></div>
-          <div className="bg-blue-800 rounded-full h-5 w-5 shadow-md mr-2"></div>
-          <div className="bg-btnColor rounded-full h-5 w-5 shadow-md mr-2"></div>
-          <div className="bg-red-800 rounded-full h-5 w-5 shadow-md mr-2"></div>
-          <div className="bg-green-700 rounded-full h-5 w-5 shadow-md mr-2"></div>
+          <ColorOption bgcolor="bg-blue-800" />
+          <ColorOption bgcolor="bg-btnColor" />
+          <ColorOption bgcolor="bg-red-800" />
+          <ColorOption bgcolor="bg-green-700" />
+          <ColorOption bgcolor="bg-yellow-500" />
         </div>
 
         <div className="flex flex-row my-3 items-center">
           <span
-            className="  text-gray-400 rounded-md px-2 py-1 mr-2 text-xs"
+            className=" text-gray-400 rounded-md px-2 py-1 mr-2 text-xs"
             href="#"
           >
             R$ {sellingPrice}
