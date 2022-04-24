@@ -56,7 +56,7 @@
   * Home listando os produtos (Fetch da api `acima.json`)
   * Ao clicar em comprar usuário é direcionado página do produto
   * Escoha a quantidade de produtos em sequida adicione ao carrinho (Add To Cart)
-  * Clicando no ícone do carrinho na navbar o usuário é direcionado ao mesmo, com todos os produtos listados e o preço total dos producots adicionados     (Quantidade X Preço), ao passo que for adicionado e quando esse valor atingir o valor $10,00 o texto frete grátis é exibido.
+  * Quando clicado na navbar, se não houver produtos no carrinho uma mensagem aparecerá informando, caso tenha o usuário é direcionado ao `meu carrinho` com todos os produtos listados e o preço total dos produtos adicionados (Quantidade X Preço). Ao passo que for adicionando, quando esse valor superar $10,00 o texto frete grátis é exibido.
   * Para essa funcionalidade, Redux toolkit foi usado.
   * Outra versão do projeto: <a  target="_blanck" href="https://github.com/eulazzo/testCart-v2">Link</a>
 
