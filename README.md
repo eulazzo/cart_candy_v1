@@ -46,18 +46,17 @@
   * Listar os produtos provenientes da API.
   * Os produtos devem ter imagem, nome e preço.
   * Exibir ao fim da lista o valor total de todos os produtos.
-  * Exibir ao fim da lista o valor total de todos os produtos.
   * O texto de frete grátis deverá aparecer apenas se o valor for acima de R$ 10,00.
   * Seguir o layout
   * Usar Flex-Box CSS
-  * Você poderá usar Vanilla JS, React, Vue ou outro framework. Sinta-se a vontade para usar a ferramenta que preferir.
+  * Poderá usar Vanilla JS, React, Vue ou outro framework. Sinta-se a vontade para usar a ferramenta que preferir.
   
 # Fui um pouco além
 * ### Features
   * Home listando os produtos (Fetch da api `acima.json`)
   * Ao clicar em comprar usuário é direcionado página do produto
-  * Pode escolher a quantidade de produtos em sequida adicinar ao carrinho
-  * Clicando ao carrinho é direcionado ao proprio, com todos os produtos listados e o preço (Quantidade X Preço), ao passo que for adicionado e quando esse valor atingir o valor $10,00 o texto frete grátis é exibido.
+  * Escoha a quantidade de produtos em sequida adicione ao carrinho (Add To Cart)
+  * Na navbar, quando clicado no ícone do carrinho, se não houver produtos no carrinho uma mensagem aparecerá informando, caso tenha o usuário é direcionado ao `meu carrinho` com todos os produtos listados e o preço total dos produtos adicionados (Quantidade X Preço). Ao passo que for adicionando, quando esse valor superar $10,00 o texto frete grátis é exibido.
   * Para essa funcionalidade, Redux toolkit foi usado.
   * Outra versão do projeto: <a  target="_blanck" href="https://github.com/eulazzo/testCart-v2">Link</a>
 
