@@ -6,7 +6,7 @@
 </h1>
  
  <div align="center">
-  <h1>Cart Candy - O melhor lugar para "adoçar" sua vida :) </h1>
+  <h1>Cart Candy - Os melhores doces você encontra aqui!</h1>
 </div>
  
 <p align="center" >
