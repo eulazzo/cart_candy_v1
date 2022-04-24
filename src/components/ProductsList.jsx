@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import { Product, Spinner } from "../components/";
+import { Product, Spinner } from "./";
 
 const ProductsList = () => {
   const [loading, setLoading] = useState(false);

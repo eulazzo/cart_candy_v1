@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Header } from "../components/index";
+import { Header } from "./";
 
 const Spinner = ({ message }) => {
   return (

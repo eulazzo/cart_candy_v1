@@ -1,4 +1,4 @@
-import { Hero, ProductsList, Header, Footer } from "../components/index";
+import { Hero, ProductsList, Header, Footer } from "../components/";
 
 const Home = () => {
   return (

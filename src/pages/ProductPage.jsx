@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 import { useParams } from "react-router-dom";
 
 import { addProduct } from "../redux/cartSlice";
-import { Footer, Header, Spinner, ColorOption } from "../components/index";
+import { Footer, Header, Spinner, ColorOption } from "../components/";
 
 const ProductPage = () => {
   const { id } = useParams();
