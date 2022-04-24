@@ -7,5 +7,5 @@ export { default as Button } from "./Button";
 export { default as ProductsList } from "./ProductsList";
 export { default as Hero } from "./Hero";
 export { default as ColorOption } from "./ColorOption";
-export { default as ContacFooterInfo } from "./ContacFooterInfo";
+export { default as ContactFooterInfo } from "./ContactFooterInfo";
 export { default as ListFooterItem } from "./ListFooterItem";

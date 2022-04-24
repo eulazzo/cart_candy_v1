@@ -1,6 +1,6 @@
 import { Facebook, Instagram, Pinterest, Twitter } from "@material-ui/icons";
 
-import { ContacFooterInfo, ListFooterItem } from "./";
+import { ContactFooterInfo, ListFooterItem } from "./";
 
 const Footer = () => {
   return (
@@ -102,7 +102,7 @@ const Footer = () => {
             <h2 className="mb-2 font-bold tracking-widest text-gray-900">
               Contact
             </h2>
-            <ContacFooterInfo />
+            <ContactFooterInfo />
           </div>
         </div>
       </div>

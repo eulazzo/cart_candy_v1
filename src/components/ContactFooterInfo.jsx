@@ -6,7 +6,7 @@ import {
   MailOutline,
 } from "@material-ui/icons";
 
-const ContacFooterInfo = () => {
+const ContactFooterInfo = () => {
   return (
     <ul className="mb-8 space-y-2 text-sm list-none ">
       <li>
@@ -29,4 +29,4 @@ const ContacFooterInfo = () => {
   );
 };
 
-export default ContacFooterInfo;
+export default ContactFooterInfo;
