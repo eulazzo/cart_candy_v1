@@ -46,11 +46,10 @@
   * Listar os produtos provenientes da API.
   * Os produtos devem ter imagem, nome e preço.
   * Exibir ao fim da lista o valor total de todos os produtos.
-  * Exibir ao fim da lista o valor total de todos os produtos.
   * O texto de frete grátis deverá aparecer apenas se o valor for acima de R$ 10,00.
   * Seguir o layout
   * Usar Flex-Box CSS
-  * Você poderá usar Vanilla JS, React, Vue ou outro framework. Sinta-se a vontade para usar a ferramenta que preferir.
+  * Poderá usar Vanilla JS, React, Vue ou outro framework. Sinta-se a vontade para usar a ferramenta que preferir.
   
 # Fui um pouco além
 * ### Features
