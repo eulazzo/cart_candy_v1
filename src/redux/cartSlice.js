@@ -7,7 +7,7 @@ const cartSlice = createSlice({
     quantity: 0,
     total: 0,
   },
-  
+
   //the product is passed as payload
   reducers: {
     addProduct: (state, action) => {
@@ -20,8 +20,16 @@ const cartSlice = createSlice({
       state.quantity = 0;
       state.total = 0;
     },
+    removeItem: (state, action) => {
+      state.products = state.products.filter(
+        (prod) => prod.uniqueId !== action.payload.uniqueId
+      );
+      state.quantity = state.quantity -= 1;
+      state.total =
+        state.total - action.payload.quantity * action.payload.price;
+    },
   },
 });
 
-export const { addProduct, reset } = cartSlice.actions;
+export const { addProduct, reset, removeItem } = cartSlice.actions;
 export default cartSlice.reducer;

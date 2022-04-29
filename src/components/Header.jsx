@@ -5,7 +5,7 @@ const Header = () => {
   const quantity = useSelector((state) => state.cart.quantity);
 
   return (
-    <div className="container mx-auto md:flex md:flex-row  md:justify-between text-center text-sm sm:text-base  top-0 sticky z-50  bg-white py-5">
+    <div className="md:flex md:flex-row md:justify-between text-center text-sm sm:text-base  top-0 sticky z-50  bg-white py-5">
       <Link to={"/"}>
         <div className="flex flex-row justify-center cursor-pointer">
           <div className=" w-10 h-10 rounded-lg flex items-center">
