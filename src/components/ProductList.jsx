@@ -1,6 +1,11 @@
-
-const Product = ({ imageUrl, name, price, sellingPrice, quantity,removeProduct }) => {
-
+const Product = ({
+  imageUrl,
+  name,
+  price,
+  sellingPrice,
+  quantity,
+  removeProduct,
+}) => {
   return (
     <div className="flex items-center m-3">
       <img
@@ -21,7 +26,7 @@ const Product = ({ imageUrl, name, price, sellingPrice, quantity,removeProduct }
           </span>
         </div>
         <span className="text-gray-400 text-xs mt-1">R${sellingPrice}</span>
-        <span className="text-sm">R${price * quantity}</span>
+        <span className="text-sm">R${(price * quantity).toFixed(2)}</span>
       </div>
     </div>
   );

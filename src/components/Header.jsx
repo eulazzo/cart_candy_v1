@@ -5,37 +5,27 @@ const Header = () => {
   const quantity = useSelector((state) => state.cart.quantity);
 
   return (
-    <div className="md:flex md:flex-row md:justify-between text-center text-sm sm:text-base  top-0 sticky z-50  bg-white py-5">
+    <div className="md:flex md:flex-row md:justify-between text-center text-sm sm:text-base  top-0 sticky z-50 bg-white py-5">
       <Link to={"/"}>
-        <div className="flex flex-row justify-center cursor-pointer">
-          <div className=" w-10 h-10 rounded-lg flex items-center">
-            <img src="./img/cart-logo.svg" alt="" />
+        <div className="flex flex-row justify-center  cursor-pointer">
+          <div className="w-10 h-10 rounded-lg flex items-center">
+            <img src="./img/cart-logo.svg" alt="logo" />
           </div>
           <h1 className="text-3xl text-gray-600 ml-2">Cart Candy </h1>
         </div>
       </Link>
       <div>
-        <span className="text-gray-600 hover:text-btnColor px-3 sm:px-4 cursor-pointer hoverAnimation">
+        <span className="text-gray-600 hover:text-btnColor px-3 sm:px-4 cursor-pointer  ">
           Home
         </span>
-        <span
-          href="#"
-          className="text-gray-600 hover:text-btnColor px-3 sm:px-4 cursor-pointer"
-        >
+        <span className="text-gray-600 hover:text-btnColor px-3 sm:px-4 cursor-pointer">
           Shop
         </span>
-
-        <span
-          href="#"
-          className="text-gray-600 hover:text-btnColor px-3 sm:px-4 cursor-pointer"
-        >
+        <span className="text-gray-600 hover:text-btnColor px-3 sm:px-4 cursor-pointer">
           Contact
         </span>
         <Link to={"/cart"}>
-          <span
-            href="#"
-            className="bg-btnColor text-gray-50 hover:bg-blue-700 p-3 px-3 sm:px-5 rounded-full cursor-pointer"
-          >
+          <span className="bg-btnColor text-gray-50 hover:bg-blue-700 p-3 px-3 sm:px-5 rounded-full cursor-pointer">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5 sm:h-6 sm:w-6 inline-block"

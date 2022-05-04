@@ -17,7 +17,7 @@ const Card = () => {
     return <Spinner message="O carrinho está vazio!" />;
 
   return (
-    <div className=" min-h-screen container mx-auto">
+    <div className="min-h-screen container mx-auto">
       <Header />
       <div className="flex items-center justify-center">
         <div className="bg-white border-2 shadow-md  w-80 rounded-lg font-poppins">
@@ -27,7 +27,7 @@ const Card = () => {
 
           {cart.products?.map((prod) => (
             <ProductList
-              key={prod.uniqueId}
+              key={prod.id}
               id={prod.uniqueId}
               removeProduct={() => removeProduct(prod)}
               imageUrl={prod.imageUrl}

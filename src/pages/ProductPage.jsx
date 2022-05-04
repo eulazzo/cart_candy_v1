@@ -5,6 +5,7 @@ import { useParams } from "react-router-dom";
 
 import { addProduct } from "../redux/cartSlice";
 import { Footer, Header, Spinner, ColorOption } from "../components/";
+import axios from "axios";
 
 const ProductPage = () => {
   const { id } = useParams();
@@ -14,17 +15,19 @@ const ProductPage = () => {
   const [quantity, setQuantity] = useState(1);
 
   useEffect(() => {
-    setLoading(true);
-    fetch(`./acima.json`, {
-      headers: {
-        Accept: "Application/json",
-      },
-    })
-      .then((res) => res.json())
-      .then((res) =>
-        setProduct(res.items.filter((prodID) => prodID.uniqueId === id)[0])
-      )
-      .catch((res) => console.log("Error", res));
+    const fetchProduct = async () => {
+      setLoading(true);
+      try {
+        const { data } = await axios.get("./acima.json");
+        const { imageUrl, name, sellingPrice, price, uniqueId } =
+          data.items.filter((prodID) => prodID.uniqueId === id)[0];
+
+        setProduct({ imageUrl, name, sellingPrice, price, uniqueId });
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    fetchProduct();
     setLoading(false);
   }, [id]);
 
@@ -34,10 +37,10 @@ const ProductPage = () => {
   const addOrRemove = (type) => {
     type === "add"
       ? setQuantity(quantity + 1)
-      : quantity > 1 && setQuantity(quantity - 1);
+      : quantity > 1 && setQuantity((prev) => prev - 1);
   };
 
-  if (loading) return <Spinner message="Loadin product info..." />;
+  if (loading) return <Spinner message="Loading product info..." />;
 
   return (
     // TODO: melhorar página
@@ -76,7 +79,7 @@ const ProductPage = () => {
             </div>
           </div>
 
-          <div className=" flex">
+          <div className="flex">
             <div className="flex items-center ">
               <Remove
                 onClick={() => addOrRemove("minus")}
